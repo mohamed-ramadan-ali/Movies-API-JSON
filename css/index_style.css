@@ -1,0 +1,97 @@
+*{    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;}
+body{
+  background-color:#0d0d0d;
+}
+
+.side-menu{
+
+  height: 100%;
+  width: 300px;
+  background-color: rgb(1, 1, 14);
+  position: fixed;
+  top: 0px;
+  left: -250px;
+  z-index: 444444;
+}
+
+.side-icon { 
+
+  height: 100%;
+  width: 50px;
+  background-color:#f8f6f6;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  z-index: 444444;
+}
+
+.toggle-icon{
+
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  
+  
+}
+#exitBtn{
+  color: black;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+
+}
+
+.list-menu{
+  display: none;
+  list-style: none
+  
+}
+.menu-link{
+
+  color: aliceblue;
+ text-decoration: none;
+  
+}
+
+
+
+.post{
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+
+.layer{
+
+  width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255,255,255,.7);
+    
+    text-align: center;
+   
+    color: #000;
+   
+
+    transition: all 1s;
+}
+.layer h3 {
+margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.test:hover .layer{
+
+  position: absolute;
+  top: 0px;
+  left: 0;
+}
+
+.cotact{
+
+  color: aliceblue;
+}
